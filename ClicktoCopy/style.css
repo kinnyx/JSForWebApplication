@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(80, 77, 77);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container{
+    margin: 30px auto;
+    width: 350px;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-size: 50px;
+}
+
+/* ใช้ .coupon ก็ได้เหมือนกัน */
+input[type="text"]{ 
+    border: 2px solid rgb(8, 149, 214);
+    border-radius: 20px;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+
+.btncopy{
+    background: white;
+    cursor: pointer;
+    color: rgb(8, 149, 214);
+    display: block;
+    margin: 10px 0 30px 35px;
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    border-radius: 20px;
+}
