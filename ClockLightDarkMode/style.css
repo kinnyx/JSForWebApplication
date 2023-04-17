@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+:root {
+    --primary-color:#000;
+    --secondary-color:#fff;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.time {
+    font-size: 60px;
+}
+
+.btntoggle {
+    margin-top: 10px;
+    cursor: pointer;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border: 0;
+    border-radius: 50%;
+    width: 45px;
+    padding: 10px;
+}
+
+body.dark{
+    --primary-color:#fff;
+    --secondary-color:#333;
+}
+
+body.dark{
+    background: #111;
+    color: var(--primary-color);
+}
+
+body {
+    transition: all 0.5s ease-in;
+}
